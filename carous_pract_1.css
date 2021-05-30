@@ -1,0 +1,38 @@
+.carousel {
+  width: 384px;
+  height: 512px;
+  border: 2px solid rgba(54, 160, 179, 0.63);
+  margin: 30px auto;
+  overflow: hidden;
+}
+.carousel-slide {
+  height: 512px;
+  width: 1152px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slider-prev {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin-left: 565px;
+  margin-top: 0px;
+  border: hidden;
+  background: white;
+}
+.slider-next {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-right: 565px;
+  margin-top: 0px;
+  border: hidden;
+  background: white;
+}
